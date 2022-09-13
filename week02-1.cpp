@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf("請輸入2個整數: " );
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf( "你讀入了%d %d \n", a,b);
+    printf( "他加起來是:%d \n",a+b);
+
+
+
+
+}
+
+
