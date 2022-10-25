@@ -68,7 +68,7 @@ int main()
 ```
 
 
-#week08程式1（印出質數）
+# week08程式1（印出質數）
 ```
 #include <stdio.h>
 int main()
@@ -84,7 +84,7 @@ int main()
 }
 ```cpp
 
-#week08程式2(程式1的程式碼的核心, 來判斷 n 是不是質數。)
+# week08程式2(程式1的程式碼的核心, 來判斷 n 是不是質數。)
 ```
 #include <stdio.h>
 int main()
@@ -102,7 +102,7 @@ int main()
 }
 ```cpp
 
-#week08程式3（輸入5個數字, 把它們加起來。）
+# week08程式3（輸入5個數字, 把它們加起來。）
 ```
 #include <stdio.h>
 int main()
@@ -119,7 +119,7 @@ int main()
 }
 ```cpp
 
-#week08程式4（印出直角三角形）
+# week08程式4（印出直角三角形）
 ```
 #include <stdio.h>
 int main()
@@ -136,7 +136,7 @@ int main()
 }
 ```cpp
 
-#week08程式5（用2個for印出直角三角形形）
+# week08程式5（用2個for印出直角三角形形）
 ```
 #include <stdio.h>
 int main()
@@ -153,7 +153,7 @@ int main()
 }
 ```cpp
 
-#week08程式6（用while印出直角三角形）
+# week08程式6（用while印出直角三角形）
 ```
 #include <stdio.h>
 int main()
