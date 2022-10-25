@@ -66,3 +66,115 @@ int main()
 }
 
 ```
+
+
+#week08程式1（印出質數）
+```
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int  bad=0;
+    for(int i=2;i<n;i++){
+        if(n%i==0) bad=1;
+    }
+    if(bad==0) printf("%d 是質數",n);
+    else printf("%d 不好,不是質數",n);
+}
+```cpp
+
+#week08程式2(程式1的程式碼的核心, 來判斷 n 是不是質數。)
+```
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	for(int n=2;n<=a;n++){
+		int bad=0;
+		for(int i=2;i<n;i++){
+			if(n%i==0) bad=1;
+		}
+		if(bad==0) printf("%d ",n);
+
+	}
+}
+```cpp
+
+#week08程式3（輸入5個數字, 把它們加起來。）
+```
+#include <stdio.h>
+int main()
+{
+    printf("請輸入5個人數字(要加起來): ");
+
+    int n;
+    int sum=0;
+    for(int i=0;i<5;i++){
+        scanf("%d", &n);
+        sum+=n;
+    }
+    printf("總合是:%d",sum);
+}
+```cpp
+
+#week08程式4（印出直角三角形）
+```
+#include <stdio.h>
+int main()
+{
+    printf("請輸入5個人數字(要加起來): ");
+
+    int n;
+    int sum=0;
+    for(int i=0;i<5;i++){
+        scanf("%d", &n);
+        sum+=n;
+    }
+    printf("總合是:%d",sum);
+}
+```cpp
+
+#week08程式5（用2個for印出直角三角形形）
+```
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n;k++){
+            if(k<=n-i) printf(" ");
+            else printf("*");
+        }
+        printf("\n");
+    }
+}
+```cpp
+
+#week08程式6（用while印出直角三角形）
+```
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+
+    int i=1;
+    while(i<=n)
+    {
+        int k=1;
+        while(k<=n)
+        {
+            if(k<=n-i)
+                printf(" ");
+            else
+                printf("*");
+            k++;
+        }
+        printf("\n");
+        i++;
+    }
+}
+```cpp
