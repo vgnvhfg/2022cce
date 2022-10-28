@@ -124,15 +124,14 @@ int main()
 #include <stdio.h>
 int main()
 {
-    printf("請輸入5個人數字(要加起來): ");
-
     int n;
-    int sum=0;
-    for(int i=0;i<5;i++){
-        scanf("%d", &n);
-        sum+=n;
+    scanf("%d",&n);
+
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n-i;k++) printf(" ");
+        for(int k=1;k<=i;k++)   printf("*");
+        printf("\n");
     }
-    printf("總合是:%d",sum);
 }
 ```
 
